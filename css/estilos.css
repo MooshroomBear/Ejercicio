@@ -1,0 +1,89 @@
+html{
+    display: flex;
+    justify-content: center;
+}
+body{
+    width: 1100px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header{
+    width: 1100px;
+    background-color: darkmagenta;
+    height: 200px;
+
+}
+#logo{
+    width: 300px;
+    height: 200px;
+    background-color: steelblue;
+}
+#publicidad{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+}
+nav{
+    width: 1100px;
+    height: 50px;
+    background-color: cornflowerblue;
+    display: flex;
+}
+ul{
+    display: flex;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+li{
+    /*background-color: cyan;
+    padding: 50px;*/
+}
+a:link{
+    text-decoration: none;
+    color: black;
+    /*background-color: aqua;*/
+    padding: 15px;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: royalblue;
+    color: white;
+    padding: 15px;
+}
+main{
+    display: flex;
+}
+article{
+    height: 800px;
+    width: 800px;
+    background-color: beige;
+}
+aside{
+    height: 800px;
+    width: 300px;
+    background-color: steelblue;
+}
+footer{
+    height: 100px;
+    width: 1100px;
+    background-color: darkgray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto1{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.texto2{
+    font-family: fuentetexto1;
+}
+.texto3{
+    font-family: Koulen;
+}
